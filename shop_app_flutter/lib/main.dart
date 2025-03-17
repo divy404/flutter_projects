@@ -50,10 +50,7 @@ class MyApp extends StatelessWidget {
 
       ),
 
-      home: ProductDetailsPage(
-        product: products[0],
-      ),
-
+      home:const HomePage()
     );
     
   }
